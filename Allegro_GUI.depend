@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1479382225 source:/home/edwin/Development/Allegro_GUI/A5Program.cpp
+	"A5Program.h"
+
+1478699181 /home/edwin/Development/Allegro_GUI/A5Program.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<exception>
+	<string>
+
+1484389423 source:/home/edwin/Development/Allegro_GUI/CustomProgram.cpp
+	"CustomProgram.h"
+	<allegro5/allegro_primitives.h>
+	"GUI_BASE.h"
+	"GUI_Panel.h"
+	"GUI_Button.h"
+	"GUI_Edit.h"
+
+1478699135 /home/edwin/Development/Allegro_GUI/CustomProgram.h
+	"A5Program.h"
+	"GUI_BASE.h"
+	"GUI_Panel.h"
+
+1484389479 /home/edwin/Development/Allegro_GUI/GUI_BASE.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<exception>
+	<string>
+	<vector>
+	"MathVectors.h"
+
+1478699135 /home/edwin/Development/Allegro_GUI/MathVectors.h
+	<math.h>
+	<stdlib.h>
+	<time.h>
+
+1478699135 /home/edwin/Development/Allegro_GUI/GUI_Panel.h
+	"GUI_BASE.h"
+
+1478699135 /home/edwin/Development/Allegro_GUI/GUI_Button.h
+	"GUI_BASE.h"
+
+1480365683 /home/edwin/Development/Allegro_GUI/GUI_Edit.h
+	"GUI_BASE.h"
+
+1479152752 source:/home/edwin/Development/Allegro_GUI/GUI_BASE.cpp
+	"GUI_BASE.h"
+
+1479152716 source:/home/edwin/Development/Allegro_GUI/GUI_Button.cpp
+	"GUI_Button.h"
+
+1480366267 source:/home/edwin/Development/Allegro_GUI/GUI_Edit.cpp
+	"GUI_Edit.h"
+
+1478778191 source:/home/edwin/Development/Allegro_GUI/GUI_Panel.cpp
+	"GUI_Panel.h"
+
+1434468090 source:/home/edwin/Development/Allegro_GUI/main.cpp
+	<stdlib.h>
+	<time.h>
+	"CustomProgram.h"
+
+1432844844 source:/home/edwin/Development/Allegro_GUI/MathVectors.cpp
+	"MathVectors.h"
+
